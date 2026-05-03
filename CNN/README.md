@@ -9,20 +9,6 @@ The model classifies text samples as:
 
 ---
 
-## Project Structure
-
-```
-cnn/
-├── config.py        # Hyperparameters and settings
-├── model.py         # CNN architecture (TextCNN)
-├── train.py         # Training script (with Early Stopping)
-├── evaluate.py      # Evaluation (accuracy, F1, confusion matrix)
-├── requirements.txt
-└── README.md
-```
-
----
-
 ## Dataset
 
 Dataset used: **MR (Movie Reviews)**
