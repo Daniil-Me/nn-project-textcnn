@@ -17,8 +17,10 @@ bilstm/
 
 ## Dataset
 
-MR (Movie Reviews) dataset — stored as `mr.p` (pickle file).
-Place `mr.p` in the same directory as the scripts before running.
+MR (Movie Reviews) dataset — stored as `mr.p` (pickle file).  
+Place `mr.p` in the same directory as the scripts before running.  
+Processed dataset (mr.p) is available here:  
+(https://drive.google.com/file/d/1ljozYFVPu9Hb8DJURsOqtdyB-b5uWBZZ/view?usp=sharing)  
 
 | Parameter | Value |
 |---|---|
