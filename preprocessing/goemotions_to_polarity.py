@@ -1,5 +1,3 @@
-
-
 import pandas as pd
 
 INPUT_CSV = "go_emotions_dataset.csv"
@@ -94,13 +92,13 @@ def main():
         for line in neg_lines:
             f.write(line + "\n")
 
-    print("Готово.")
-    print("Позитивных:", len(pos_lines))
-    print("Негативных:", len(neg_lines))
-    print("Пропущено смешанных:", skipped_mixed)
-    print("Пропущено нейтральных/неоднозначных:", skipped_neutral_or_ambiguous)
-    print("Пропущено пустых:", skipped_empty)
-    print("Созданы файлы:", POS_FILE, NEG_FILE)
+    print("Done.")
+    print("Positive:", len(pos_lines))
+    print("Negative:", len(neg_lines))
+    print("Skipped mixed:", skipped_mixed)
+    print("Skipped neutral/ambiguous:", skipped_neutral_or_ambiguous)
+    print("Skipped empty:", skipped_empty)
+    print("Created files:", POS_FILE, NEG_FILE)
 
 if __name__ == "__main__":
     main()
