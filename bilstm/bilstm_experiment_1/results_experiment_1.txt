@@ -1,0 +1,37 @@
+=== Експеримент 1 — Базова конфігурація ===
+
+Гіперпараметри:
+  HIDDEN_SIZE = 128
+  NUM_LAYERS  = 2
+  DROPOUT     = 0.5
+  BATCH_SIZE  = 64
+  NUM_EPOCHS  = 10
+  LEARNING_RATE = 0.001
+  MAX_SEQ_LEN = 50
+
+Результати по епохах:
+  Epoch 1:  Train Loss: 0.6213 | Val Loss: 0.5955 | Val Accuracy: 65.11%
+  Epoch 2:  Train Loss: 0.5821 | Val Loss: 0.5895 | Val Accuracy: 67.30%
+  Epoch 3:  Train Loss: 0.5606 | Val Loss: 0.5704 | Val Accuracy: 67.93%
+  Epoch 4:  Train Loss: 0.5399 | Val Loss: 0.5487 | Val Accuracy: 70.16%
+  Epoch 5:  Train Loss: 0.5206 | Val Loss: 0.5483 | Val Accuracy: 69.98%
+  Epoch 6:  Train Loss: 0.5053 | Val Loss: 0.5502 | Val Accuracy: 70.31%
+  Epoch 7:  Train Loss: 0.4888 | Val Loss: 0.5655 | Val Accuracy: 70.06%
+  Epoch 8:  Train Loss: 0.4734 | Val Loss: 0.5645 | Val Accuracy: 69.26%
+  Epoch 9:  Train Loss: 0.4578 | Val Loss: 0.5842 | Val Accuracy: 68.40%
+  Epoch 10: Train Loss: 0.4409 | Val Loss: 0.6280 | Val Accuracy: 68.74%
+
+Фінальні результати на тесті:
+  Test Accuracy: 67.84%
+  F1 Score:      0.6786
+
+Confusion Matrix:
+                  Predicted Negative   Predicted Positive
+  Actual Negative:     1368                  870
+  Actual Positive:      890                 2345
+
+Спостереження:
+  - Найкраща валідаційна точність на епосі 6 (70.31%)
+  - Після епохи 6 val loss починає рости — ознка перенавчання
+  - Модель краще розпізнає позитивні рецензії (72%) ніж негативні (61%)
+  - Причина: дисбаланс класів (32322 позитивних vs 22659 негативних)
