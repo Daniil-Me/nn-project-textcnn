@@ -52,7 +52,6 @@ Input (token indices)
 ```
 ## Hyperparameters
 
-Defined in `config.py`:
 
 | Parameter     | Value     |
 | ------------- | --------- |
