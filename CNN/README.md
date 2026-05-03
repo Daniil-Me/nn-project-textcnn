@@ -50,33 +50,6 @@ Input (token indices)
     → Fully Connected Layer (300 → 2)
     → Softmax Output
 ```
-
----
-
-## Installation
-
-```bash
-pip install -r requirements.txt
-```
-
----
-
-## Usage
-
-### Train the model
-
-```bash
-python train.py
-```
-
-### Evaluate the model
-
-```bash
-python evaluate.py
-```
-
----
-
 ## Hyperparameters
 
 Defined in `config.py`:
