@@ -134,11 +134,6 @@ if __name__=="__main__":
     print "vocab size: " + str(len(vocab))
     print "max sentence length: " + str(max_l)
 
-    
-    #print "loading word2vec vectors...",
-    #w2v = load_bin_vec(w2v_file, vocab)
-
-    print "skipping word2vec..."
     w2v = {}
     
     print "word2vec loaded!"
