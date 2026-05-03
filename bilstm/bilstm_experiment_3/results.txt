@@ -1,0 +1,5 @@
+Test Accuracy: 68.99%
+F1 Score:      0.6916
+Confusion Matrix:
+[[1487  751]
+ [ 946 2289]]
