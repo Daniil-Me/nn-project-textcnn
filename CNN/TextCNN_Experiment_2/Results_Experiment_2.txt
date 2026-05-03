@@ -1,0 +1,52 @@
+model architecture: TextCNN-non-static
+vectors: word2vec
+kernel sizes: [3, 4, 5]
+dropout: 0.5
+batch size: 50
+epochs: 10
+
+===== fold 0 =====
+Fold 0 | Ep 01 | Train Acc: 67.22% | Val Acc: 65.44% | Val Loss: 0.6097
+Fold 0 | Ep 02 | Train Acc: 73.97% | Val Acc: 69.10% | Val Loss: 0.5611
+Fold 0 | Ep 03 | Train Acc: 76.79% | Val Acc: 70.08% | Val Loss: 0.5429
+Fold 0 | Ep 04 | Train Acc: 78.78% | Val Acc: 70.41% | Val Loss: 0.5401
+Fold 0 | Ep 05 | Train Acc: 80.13% | Val Acc: 70.39% | Val Loss: 0.5458
+Fold 0 | Ep 06 | Train Acc: 81.34% | Val Acc: 69.56% | Val Loss: 0.5568
+Fold 0 | Ep 07 | Train Acc: 82.27% | Val Acc: 68.89% | Val Loss: 0.5712
+Early Stopping! Stop on epoch 7
+--- Fold 0 Test F1: 0.7273 ---
+cv: 0, perf: 0.7273
+
+===== fold 1 =====
+Fold 1 | Ep 01 | Train Acc: 67.59% | Val Acc: 66.19% | Val Loss: 0.6061
+Fold 1 | Ep 02 | Train Acc: 73.80% | Val Acc: 69.92% | Val Loss: 0.5563
+Fold 1 | Ep 03 | Train Acc: 76.98% | Val Acc: 71.09% | Val Loss: 0.5408
+Fold 1 | Ep 04 | Train Acc: 78.75% | Val Acc: 71.29% | Val Loss: 0.5385
+Fold 1 | Ep 05 | Train Acc: 80.05% | Val Acc: 70.74% | Val Loss: 0.5448
+Fold 1 | Ep 06 | Train Acc: 81.15% | Val Acc: 70.64% | Val Loss: 0.5558
+Fold 1 | Ep 07 | Train Acc: 82.18% | Val Acc: 69.71% | Val Loss: 0.5690
+Early Stopping! Stop on epoch 7
+--- Fold 1 Test F1: 0.7162 ---
+cv: 1, perf: 0.7162
+
+===== fold 2 =====
+Fold 2 | Ep 01 | Train Acc: 66.94% | Val Acc: 64.16% | Val Loss: 0.6084
+Fold 2 | Ep 02 | Train Acc: 73.97% | Val Acc: 69.63% | Val Loss: 0.5628
+Fold 2 | Ep 03 | Train Acc: 76.95% | Val Acc: 70.68% | Val Loss: 0.5467
+Fold 2 | Ep 04 | Train Acc: 78.72% | Val Acc: 71.10% | Val Loss: 0.5428
+Fold 2 | Ep 05 | Train Acc: 80.23% | Val Acc: 70.90% | Val Loss: 0.5469
+Fold 2 | Ep 06 | Train Acc: 81.21% | Val Acc: 70.27% | Val Loss: 0.5571
+Fold 2 | Ep 07 | Train Acc: 82.12% | Val Acc: 69.77% | Val Loss: 0.5709
+Early Stopping! Stop on epoch 7
+--- Fold 2 Test F1: 0.7137 ---
+cv: 2, perf: 0.7137
+
+===== fold 3 =====
+Fold 3 | Ep 01 | Train Acc: 67.16% | Val Acc: 66.10% | Val Loss: 0.6060
+Fold 3 | Ep 02 | Train Acc: 74.40% | Val Acc: 70.00% | Val Loss: 0.5585
+Fold 3 | Ep 03 | Train Acc: 77.09% | Val Acc: 70.95% | Val Loss: 0.5419
+Fold 3 | Ep 04 | Train Acc: 78.88% | Val Acc: 71.20% | Val Loss: 0.5409
+Fold 3 | Ep 05 | Train Acc: 80.14% | Val Acc: 70.59% | Val Loss: 0.5451
+Fold 3 | Ep 06 | Train Acc: 81.36% | Val Acc: 69.78% | Val Loss: 0.5555
+Fold 3 | Ep 07 | Train Acc: 82.23% | Val Acc: 69.28% | Val Loss: 0.5684
+Early Stopping! Stop on epoch 7
