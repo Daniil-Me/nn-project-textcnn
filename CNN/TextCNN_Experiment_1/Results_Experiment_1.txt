@@ -1,0 +1,10 @@
+Ep 01 | Train Acc: 68.60% | Val Acc: 65.72%
+Ep 02 | Train Acc: 75.07% | Val Acc: 69.46%
+Ep 03 | Train Acc: 77.73% | Val Acc: 70.15%
+Ep 04 | Train Acc: 79.73% | Val Acc: 70.43%
+Ep 05 | Train Acc: 81.03% | Val Acc: 69.86%
+Ep 06 | Train Acc: 82.40% | Val Acc: 68.89%
+Ep 07 | Train Acc: 83.21% | Val Acc: 68.31%
+Ep 08 | Train Acc: 83.96% | Val Acc: 67.38%
+Ep 09 | Train Acc: 84.57% | Val Acc: 66.33%
+Ep 10 | Train Acc: 85.15% | Val Acc: 65.93%
